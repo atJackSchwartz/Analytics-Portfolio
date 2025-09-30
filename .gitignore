@@ -23,3 +23,8 @@ python-notebooks/final-project/data/
 # ---- OS / Editor junk ----
 .DS_Store
 Thumbs.db
+
+# Ignore any data folder anywhere
+**/data/**
+*.csv
+*.xlsx
