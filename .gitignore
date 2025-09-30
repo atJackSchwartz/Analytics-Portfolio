@@ -1,13 +1,25 @@
-# Ignore virtual environments
-.venv/
-venv/
-
-# Ignore data files
-*.xlsx
-*.csv
-
-# Ignore Python cache
+# ---- Python ignores ----
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# ---- Virtual environments ----
+.venv/
+venv/
+
+# ---- Jupyter & notebook junk ----
+.ipynb_checkpoints/
+
+# ---- Data files (raw) ----
+*.csv
+*.xlsx
+
+# ---- Ignore any data folders ----
+data/
+**/data/
+python-notebooks/final-project/data/
+
+# ---- OS / Editor junk ----
+.DS_Store
+Thumbs.db
