@@ -7,9 +7,9 @@ Good Health Physicians (a primary care provider group carrying global financial 
 - Current ER utilization: **525 ER visits per 1,000 members**
 - Target: **450 ER visits per 1,000 members by the end of year 3**
 - Membership grows annually: **5,000 (Y1), 5,500 (Y2), 6,000 (Y3)**
-- Average ER visit cost: **$1,200** (assumed stable over 3 years) :contentReference[oaicite:3]{index=3}
+- Average ER visit cost: **$1,200** (assumed stable over 3 years) 
 
-> “Year One” is defined as the first year after the project is implemented. :contentReference[oaicite:4]{index=4}
+> “Year One” is defined as the first year after the project is implemented. 
 
 ## Objective
 Build a **3-year Excel financial model** (fully driven by cell references) comparing three interventions to prevent avoidable ER visits. The model calculates, by year:
@@ -17,7 +17,7 @@ Build a **3-year Excel financial model** (fully driven by cell references) compa
 - **Total cost**
 - **Net savings**
 
-…and supports easy scenario changes by updating assumption cells. :contentReference[oaicite:5]{index=5}
+…and supports easy scenario changes by updating assumption cells. 
 
 ## Options Evaluated
 
@@ -29,7 +29,7 @@ Build a **3-year Excel financial model** (fully driven by cell references) compa
   - **No additional reduction in year 3**
 - Offsetting costs:
   - **50%** of avoided ER visits become **same-day office visits** at **$75/visit**
-  - **50%** have no offsetting visit cost :contentReference[oaicite:6]{index=6}
+  - **50%** have no offsetting visit cost 
 
 ### Option 2 — Open an urgent care center (limited accessibility)
 - Existing vacant space is available, but accessible to **40% of members**
@@ -37,7 +37,7 @@ Build a **3-year Excel financial model** (fully driven by cell references) compa
 - ER reduction impact:
   - **15% each year**, but **only for the 40%** with access
 - Offsetting costs:
-  - Every avoided ER visit becomes an **urgent care visit** at **$150/visit** :contentReference[oaicite:7]{index=7}
+  - Every avoided ER visit becomes an **urgent care visit** at **$150/visit** 
 
 ### Option 3 — Add a nurse triage phone line
 - Year 1 setup: **$10,000** (one-time)
@@ -50,7 +50,7 @@ Build a **3-year Excel financial model** (fully driven by cell references) compa
 - Offsetting costs (distribution of avoided ER visits):
   - **30%** redirected to urgent care at **$150/visit**
   - **40%** redirected to primary care at **$75/visit**
-  - **30%** have no offsetting visit cost :contentReference[oaicite:8]{index=8}
+  - **30%** have no offsetting visit cost 
 
 ## Deliverables in this Folder
 - `emergency_room_visit_reduction.xlsx` — Excel financial model with assumptions, calculations, and year-by-year results
@@ -66,4 +66,4 @@ Typical tab layout used in the model:
 
 ## Notes
 - This is a **case study model** built for portfolio demonstration (inputs and outcomes are driven by the provided assumptions).
-- Any raw data used is **not stored in this repo**; only the finished model and presentation are included.
+
