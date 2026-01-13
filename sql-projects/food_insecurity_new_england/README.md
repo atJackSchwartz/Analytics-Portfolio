@@ -8,7 +8,7 @@ This project looks at how food insecurity connects with ER visits and average ri
 
 I worked with two datasets (CMS and food insecurity) and built a cleaned, combined dataset that could be used for analysis.  
 
-The focus is on showing how I clean raw data, join it together, and make sure the final dataset is reliable.
+The focus is on showing how I clean raw data, join it together, and made sure the final dataset is reliable.
 
 
 
