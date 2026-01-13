@@ -66,4 +66,4 @@ Typical tab layout used in the model:
 
 ## Notes
 - This is a **case study model** built for portfolio demonstration (inputs and outcomes are driven by the provided assumptions).
-- Any raw data used is **not stored in this repo**; only the finished model and presentation are included.
+
