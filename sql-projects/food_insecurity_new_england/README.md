@@ -1,32 +1,30 @@
-\# SQL Project: Food Insecurity and ER Utilization in New England
+# SQL Project: Food Insecurity and ER Utilization in New England
 
+## Overview
+This project examines the relationship between **food insecurity**, **emergency room (ER) utilization**, and **average risk scores** across counties in New England.
 
+Two separate datasets (CMS healthcare data and county-level food insecurity data) were cleaned and combined to create a single, analysis-ready dataset. The project emphasizes **data cleaning, standardization, and reliable dataset construction** rather than advanced statistical modeling.
 
-\## Overview
+## Objectives
+- Clean and standardize raw food insecurity data
+- Clean CMS healthcare utilization data
+- Join both datasets at the county level
+- Produce a final dataset suitable for downstream analysis
 
-This project looks at how food insecurity connects with ER visits and average risk scores across counties in New England.  
+## Project Structure
+- **01_food_clean.sql**  
+  Cleans and standardizes the food insecurity dataset (state, county, percent food insecure).
 
-I worked with two datasets (CMS and food insecurity) and built a cleaned, combined dataset that could be used for analysis.  
+- **02_cms_clean.sql**  
+  Cleans CMS data, including risk scores, ER visits, and fee-for-service beneficiary counts.
 
-The focus is on showing how I clean raw data, join it together, and made sure the final dataset is reliable.
+- **03_dataset_build.sql**  
+  Joins the cleaned food insecurity and CMS datasets and applies required filters.
 
+- **04_dataset_cleanup.sql**  
+  Removes duplicate county records and retains the most appropriate row per county.
 
-
----
-
-
-
-\## Project Structure
-
-
-
-\- \*\*01\_food\_clean.sql\*\* – Standardizes the food insecurity dataset (state, county, % food insecure).  
-
-\- \*\*02\_cms\_clean.sql\*\* – Cleans CMS data (risk scores, ER visits, FFS beneficiaries).  
-
-\- \*\*03\_dataset\_build.sql\*\* – Joins the cleaned datasets together and filters required parameters.  
-
-\- \*\*04\_dataset\_clean.sql\*\* – Removes duplicate county rows and keeps the best record.  
-
-
-
+## Notes
+- This project focuses on **SQL data preparation and transformation**
+- The final output is a clean, joined dataset designed for analysis or visualization
+- Raw source files are not included in this repository
