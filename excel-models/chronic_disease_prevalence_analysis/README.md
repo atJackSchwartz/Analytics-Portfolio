@@ -1,84 +1,31 @@
-\# Excel Project: Chronic Disease Prevalence Analysis
+# Chronic Disease Prevalence Analysis (Excel Model)
 
+## Overview
+This project analyzes **chronic disease prevalence across U.S. states** and examines how prevalence varies by condition and geography. The goal is to identify patterns that could inform public health planning and resource allocation.
 
+The analysis is presented in an Excel model designed for clear comparison and exploratory insights rather than raw data processing.
 
-\## Overview
+## Key Questions
+- How does chronic disease prevalence vary by state?
+- Which conditions show the highest overall prevalence?
+- Are there observable geographic patterns in disease burden?
+- Which states consistently rank high or low across multiple conditions?
 
-This project analyzes the prevalence of chronic conditions among seniors (65+) across U.S. Census Districts, with a focus on three conditions: \*\*Chronic Kidney Disease, Depression, and Cancer\*\*.  
+## Methods (High Level)
+- Cleaned and standardized chronic disease prevalence data in Excel
+- Aggregated prevalence metrics at the state and condition level
+- Used summary tables and visualizations to compare trends
+- Highlighted outliers and cross-condition patterns
 
-The analysis was completed in Excel using the CMS Chronic Conditions dataset (2020) and U.S. Census population data. The goal was to calculate population-weighted prevalence at the district level to inform potential market expansion decisions for a health insurance company.
+## Files
+- `chronic_disease_prevalence_analysis.xlsx` — Excel workbook containing analysis, tables, and charts
+- `README.md` — Project overview and methodology
 
+## How to Use
+1. Open the Excel workbook
+2. Review summary tables and charts for state-level comparisons
+3. Explore condition-specific tabs for deeper insights
 
-
----
-
-
-
-\## Approach
-
-1\. \*\*Data Preparation\*\*  
-
-&nbsp;  - Imported CMS chronic conditions data (2020).  
-
-&nbsp;  - Filtered to \*\*age group 65+\*\*.  
-
-&nbsp;  - Mapped each state to its U.S. Census District using the Census district definitions file.  
-
-
-
-2\. \*\*Weighting by Population\*\*  
-
-&nbsp;  - For each Census District, calculated a \*\*population-weighted average prevalence\*\*:  
-
-&nbsp;    \\\[
-
-&nbsp;    \\text{District Prevalence} = \\frac{\\sum (\\text{State Prevalence} \\times \\text{State Population})}{\\sum \\text{State Population}}
-
-&nbsp;    \\]  
-
-
-
-3\. \*\*Conditions Analyzed\*\*  
-
-&nbsp;  - Chronic Kidney Disease (CKD)  
-
-&nbsp;  - Depression  
-
-&nbsp;  - Cancer  
-
-
-
-4\. \*\*Outputs\*\*  
-
-&nbsp;  - District-level prevalence tables for the three conditions.  
-
-&nbsp;  - Example calculation shown for one district to illustrate methodology.  
-
-&nbsp;  - Clean, formatted Excel workbook with all calculations visible.
-
-
-
----
-
-
-
-\## Key Skills Demonstrated
-
-\- Using \*\*Excel formulas and pivot tables\*\* for large dataset manipulation.  
-
-\- Applying \*\*population weighting\*\* to calculate meaningful aggregated statistics.  
-
-\- Structuring a workbook so that the methodology is \*\*transparent and reproducible\*\*.  
-
-\- Communicating results clearly with tables and intermediate calculations.  
-
-
-
----
-
-
-
-\## Notes 
-
-\- All calculations done in Excel (no external code or tools).  
-
+## Notes
+- Raw source data is not included in this repository.
+- This project was completed as a graduate-level analytics exercise and is intended for portfolio demonstration.
