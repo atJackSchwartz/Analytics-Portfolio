@@ -13,7 +13,6 @@ venv/
 
 # ---- Data files (raw) ----
 *.csv
-*.xlsx
 
 # ---- Ignore any data folders ----
 data/
@@ -27,4 +26,9 @@ Thumbs.db
 # Ignore any data folder anywhere
 **/data/**
 *.csv
+
+# Ignore Excel files by default
 *.xlsx
+
+# But allow them inside excel-models
+!excel-models/**/*.xlsx
