@@ -3,47 +3,6 @@
 ## Overview
 This project analyzes **medical benefit drug cost trends from 2018–2021** and evaluates the **financial impact of biosimilars**. The analysis was completed from the perspective of a Research Analyst supporting the Director of Research at the U.S. FDA.
 
-The goal is to identify key drivers of cost growth and quantify how biosimilar adoption affected 2021 spending.
-
-## Key Questions Answered
-- What was the **total change in medication cost PMPM** from 2018 to 2021?
-- Which **top 10 medications** had the highest PMPM increases over that period?
-- For **Entyvio**, how much of the 2021 cost increase was driven by:
-  - increased utilization vs.
-  - increased per-patient cost?
-- What was the **gross cost impact of biosimilars in 2021**, compared to paying all utilization at reference product prices?
-
-## Methods (High Level)
-- Aggregated and cleaned multi-year medical benefit drug data (2018–2021)
-- Calculated PMPM trends by medication
-- Decomposed co
-
-[200~$ cat > "excel-models/medication_and_biosimilar_trend_analysis/README.md" <<'EOF'
-# Medication & Biosimilar Trend Analysis (Excel Model + Presentation)
-
-## Overview
-This project analyzes **medical benefit drug cost trends from 2018–2021** and evaluates the **financial impact of biosimilars**. The analysis was completed from the perspective of a Research Analyst supporting the Director of Research at the U.S. FDA.
-
-The goal is to identify key drivers of cost growth and quantify how biosimilar adoption affected 2021 spending. 
-
-## Key Questions Answered
-- What was the **total change in medication cost PMPM** from 2018 to 2021?
-- Which **top 10 medications** had the highest PMPM increases over that period?
-- For **Entyvio**, how much of the 2021 cost increase was driven by:
-  - increased utilization vs.
-  - increased per-patient cost?
-- What was the **gross cost impact of biosimilars in 2021**, compared to paying all utilization at reference product prices?
-
-## Methods (High Level)
-- Aggregated and cleaned multi-year medical benefit drug data (2018–2021)
-- Decomposed coPM trends by medication
-
-cat > "excel-models/medication_and_biosimilar_trend_analysis/README.md" <<'EOF'
-# Medication & Biosimilar Trend Analysis (Excel Model + Presentation)
-
-## Overview
-This project analyzes **medical benefit drug cost trends from 2018–2021** and evaluates the **financial impact of biosimilars**. The analysis was completed from the perspective of a Research Analyst supporting the Director of Research at the U.S. FDA.
-
 The goal is to identify key drivers of cost growth and quantify how biosimilar adoption affected 2021 spending. 
 
 ## Key Questions Answered
