@@ -3,7 +3,7 @@
 ## Overview
 This project analyzes **medical benefit drug cost trends from 2018–2021** and evaluates the **financial impact of biosimilars**. The analysis was completed from the perspective of a Research Analyst supporting the Director of Research at the U.S. FDA.
 
-The goal is to identify key drivers of cost growth and quantify how biosimilar adoption affected 2021 spending. :contentReference[oaicite:0]{index=0}
+The goal is to identify key drivers of cost growth and quantify how biosimilar adoption affected 2021 spending.
 
 ## Key Questions Answered
 - What was the **total change in medication cost PMPM** from 2018 to 2021?
@@ -24,7 +24,7 @@ The goal is to identify key drivers of cost growth and quantify how biosimilar a
 ## Overview
 This project analyzes **medical benefit drug cost trends from 2018–2021** and evaluates the **financial impact of biosimilars**. The analysis was completed from the perspective of a Research Analyst supporting the Director of Research at the U.S. FDA.
 
-The goal is to identify key drivers of cost growth and quantify how biosimilar adoption affected 2021 spending. :contentReference[oaicite:0]{index=0}
+The goal is to identify key drivers of cost growth and quantify how biosimilar adoption affected 2021 spending. 
 
 ## Key Questions Answered
 - What was the **total change in medication cost PMPM** from 2018 to 2021?
@@ -44,7 +44,7 @@ cat > "excel-models/medication_and_biosimilar_trend_analysis/README.md" <<'EOF'
 ## Overview
 This project analyzes **medical benefit drug cost trends from 2018–2021** and evaluates the **financial impact of biosimilars**. The analysis was completed from the perspective of a Research Analyst supporting the Director of Research at the U.S. FDA.
 
-The goal is to identify key drivers of cost growth and quantify how biosimilar adoption affected 2021 spending. :contentReference[oaicite:0]{index=0}
+The goal is to identify key drivers of cost growth and quantify how biosimilar adoption affected 2021 spending. 
 
 ## Key Questions Answered
 - What was the **total change in medication cost PMPM** from 2018 to 2021?
