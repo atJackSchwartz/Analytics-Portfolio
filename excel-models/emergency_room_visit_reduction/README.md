@@ -57,13 +57,6 @@ Build a **3-year Excel financial model** (fully driven by cell references) compa
 - `emergency_room_visit_reduction.pptx` — Executive summary deck (recommendation + financial/operational rationale)
 - `README.md` — Project overview and modeling assumptions
 
-## Recommended Workbook Structure (how this file is organized)
-Typical tab layout used in the model:
-- **Assumptions** (all inputs; costs; visit costs; membership; baseline utilization; reduction rates; accessibility)
-- **Baseline ER Cost** (no-intervention scenario)
-- **Option 1 / Option 2 / Option 3** (gross savings, program cost, offsetting costs, net savings by year)
-- **Comparison** (side-by-side summary + recommendation)
-
 ## Notes
 - This is a **case study model** built for portfolio demonstration (inputs and outcomes are driven by the provided assumptions).
 
