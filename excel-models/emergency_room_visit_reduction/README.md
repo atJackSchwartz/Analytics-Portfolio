@@ -1,7 +1,7 @@
 # Emergency Room Visit Reduction (Excel Model + PowerPoint)
 
 ## Context
-Good Health Physicians (a primary care provider group carrying global financial risk) is working to reduce avoidable emergency room (ER) utilization. Internal analysis identified **“ready access to care”** as the primary driver of ER visits. :contentReference[oaicite:2]{index=2}
+Good Health Physicians (a primary care provider group carrying global financial risk) is working to reduce avoidable emergency room (ER) utilization. Internal analysis identified **“ready access to care”** as the primary driver of ER visits.
 
 **Baseline + goal**
 - Current ER utilization: **525 ER visits per 1,000 members**
