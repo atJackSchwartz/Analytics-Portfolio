@@ -2,7 +2,6 @@
 -- Part of the final dataset for food/health analysis
 -- Author Jack Schwartz
 
-DROP TABLE IF EXISTS public.component_a_2021_deduped;
 CREATE TABLE public.component_a_2021_deduped AS
 SELECT DISTINCT ON (state, county)
   year, state, county,
