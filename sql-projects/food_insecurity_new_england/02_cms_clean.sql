@@ -2,7 +2,6 @@
 -- Part of the final dataset for food/health analysis
 -- Author Jack Schwartz
 
-DROP TABLE IF EXISTS public.cms_clean;
 CREATE TABLE public.cms_clean AS
 WITH base AS (
   SELECT
