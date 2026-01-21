@@ -2,7 +2,6 @@
 -- Part of the final dataset for food/health analysis
 -- Author Jack Schwartz
 
-DROP TABLE IF EXISTS public.component_a_2021;
 CREATE TABLE public.component_a_2021 AS
 SELECT
   c.year AS year,
