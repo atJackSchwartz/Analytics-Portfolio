@@ -2,7 +2,6 @@
 -- Part of the final dataset for food/health analysis
 -- Author Jack Schwartz
 
-DROP TABLE IF EXISTS public.food_clean;
 CREATE TABLE public.food_clean AS
 WITH food_seq AS (
   SELECT
